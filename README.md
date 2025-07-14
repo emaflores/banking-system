@@ -1,7 +1,7 @@
 ## 🏦 Banking System – Microservicios Distribuidos
+<span>
+Este es un sistema bancario simplificado diseñado con microservicios. Permite gestionar usuarios, cuentas, transferencias y notificaciones mediante una arquitectura moderna y escalable.
 
-Este es un sistema bancario simplificado diseñado con microservicios. Permite gestionar usuarios, cuentas, transferencias y notificaciones mediante una arquitectura moderna y escalable
----
 
 ## ✨ Características principales
 
