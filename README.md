@@ -1,7 +1,6 @@
 ## 🏦 Banking System – Microservicios Distribuidos
 
-Este es un sistema bancario simplificado diseñado con microservicios. Permite gestionar usuarios, cuentas, transferencias y notificaciones mediante una arquitectura moderna y realista.
-
+Este es un sistema bancario simplificado diseñado con microservicios. Permite gestionar usuarios, cuentas, transferencias y notificaciones mediante una arquitectura moderna y escalable
 ---
 
 ## ✨ Características principales
@@ -48,21 +47,21 @@ Este es un sistema bancario simplificado diseñado con microservicios. Permite g
 ### Requisitos
 
 - Docker + Docker Compose
-- JDK 17 (si querés compilar localmente)
+- JDK 17
 - Maven
 
 ### Pasos
 
 ```bash
-# Cloná el repo
+# Clonar el repositorio
 git clone https://github.com/tuusuario/banking-system.git
 cd banking-system
 
-# Levantá todo el ecosistema
+# Levantar todo el ecosistema
 docker-compose up --build
 ```
 
-⏳ Esperá unos segundos mientras Eureka registra los servicios.
+⏳ Esperar unos segundos mientras Eureka registra los servicios.
 
 ---
 
