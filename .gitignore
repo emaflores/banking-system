@@ -1,0 +1,43 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+*.log
+*.tmp
+hs_err_pid*
+
+# Eclipse / IntelliJ / VS Code
+/.idea/
+/*.iml
+/.vscode/
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+**/Dockerfile
+**/docker-compose.override.yml
+**/docker-compose.yml
+
+# Spring Boot
+/application.properties
+/application.yml
+
+# Logs y trazas
+logs/
+*.out
+
+# Test coverage
+jacoco.exec
+/coverage/
+*.lcov
+
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.example
