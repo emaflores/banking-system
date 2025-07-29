@@ -2,6 +2,7 @@ package com.banking.apigateway.filter;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
+import jakarta.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -10,7 +11,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.*;
 import reactor.core.publisher.Mono;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import java.security.Key;
 
 @Component
@@ -31,7 +32,8 @@ public class JwtAuthFilter implements WebFilter {
     }
 
     @Override
-    public Mono<Void> filter(ServerWebExchange exchange, WebFilterChain chain) {
+    @Nonnull
+    public Mono<Void> filter(@Nonnull ServerWebExchange exchange, @Nonnull WebFilterChain chain) {
         ServerHttpRequest request = exchange.getRequest();
 
         if (!isSecuredPath(request.getURI().getPath())) {
