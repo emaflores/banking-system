@@ -92,7 +92,7 @@ docker run -d -p 6379:6379 --name redis redis:alpine
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/banking-system.git
+git clone https://github.com/emaflores/banking-system.git
 cd banking-system
 
 # Instalar dependencias
